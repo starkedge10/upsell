@@ -1,6 +1,6 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "f34c81756ca9b5bf87c04118fff20ed2"
+client_id = ""
 name = "widsed-post-purchase-app-new"
 application_url = "https://duke-species-quick-pointing.trycloudflare.com"
 embedded = true
