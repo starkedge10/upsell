@@ -3,7 +3,7 @@ import pg from 'pg';
 const { Pool } = pg;
 
 const pool = new Pool({
-    connectionString: 'postgres://u591r0kpdrujl8:p1ba55ffc784efbc410194e097a63dd99b13e4a17018cea8f488fdaf9761d7a52@cat670aihdrkt1.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d5v7jbg54rnqtc',
+    connectionString: process.env.DATABASE_URL
     ssl: {
         rejectUnauthorized: false // Required for Heroku PostgreSQL
     }
